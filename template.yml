@@ -1,0 +1,21 @@
+Resources:
+#  HelloFunctionV1:
+#    Type: AWS::Serverless::Function
+#    Properties:
+#      Handler: io.goda.aws.function.v1.HelloFunction::sayHello
+#      Runtime: java11
+  HelloFunctionV2: # Seems to be the standard
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: io.goda.aws.function.v2.HelloFunction::execute
+      Runtime: java11
+      # Not sure why the MicronautRequesthandler method of writing function requires extra memory. Have to read up more.
+      MemorySize: 256
+#  HelloFunctionV3: # This option expects to have a function name called "test" have to check more into that later.
+#    Type: AWS::Serverless::Function
+#    Properties:
+#      CodeUri: .
+#      Handler: io.micronaut.function.aws.MicronautRequestStreamHandler
+#      Runtime: java11
+#      MemorySize: 256
+#      FunctionName: hello-function

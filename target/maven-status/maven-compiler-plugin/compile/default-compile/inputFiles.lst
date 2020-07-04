@@ -1,0 +1,8 @@
+/home/godav/tech/projects/micronaut/aws-function/src/main/java/io/goda/aws/service/HelloService.java
+/home/godav/tech/projects/micronaut/aws-function/src/main/java/aws/function/Book.java
+/home/godav/tech/projects/micronaut/aws-function/src/main/java/aws/function/BookRequestHandler.java
+/home/godav/tech/projects/micronaut/aws-function/src/main/java/aws/function/BookSaved.java
+/home/godav/tech/projects/micronaut/aws-function/src/main/java/io/goda/aws/bean/HelloBean.java
+/home/godav/tech/projects/micronaut/aws-function/src/main/java/io/goda/aws/function/v1/HelloFunction.java
+/home/godav/tech/projects/micronaut/aws-function/src/main/java/io/goda/aws/function/v2/HelloFunction.java
+/home/godav/tech/projects/micronaut/aws-function/src/main/java/io/goda/aws/function/v3/HelloFunction.java

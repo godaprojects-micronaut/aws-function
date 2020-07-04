@@ -1,0 +1,8 @@
+Resources:
+  HelloFunctionV2:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: io.goda.aws.function.v2.HelloFunction::execute
+      Runtime: java11
+      MemorySize: 256
+      CodeUri: HelloFunctionV2

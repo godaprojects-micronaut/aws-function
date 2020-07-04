@@ -1,0 +1,6 @@
+applicationType: function
+defaultPackage: aws.function
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, aws-lambda, file-watch, java, junit, logback, maven, readme, shade, yaml]
