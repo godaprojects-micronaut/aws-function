@@ -11,7 +11,8 @@ sam local invoke <Function Name> -e <Event file name>
 ```
 
 P.S. Tried the constructor injection and that did not seem to work with the MicronautRequestHandler. Have to see later
-
+P.S. Has temp code for API gateway. Did not work. https://micronaut-projects.github.io/micronaut-aws/latest/guide/#apiProxy 
+     Again something to be checked.
 ## Feature aws-lambda documentation
 
 - [Micronaut AWS Lambda Function documentation](https://micronaut-projects.github.io/micronaut-aws/latest/guide/index.html#lambda)
