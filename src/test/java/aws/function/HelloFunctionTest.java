@@ -4,21 +4,27 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import io.goda.aws.bean.HelloBean;
 import io.goda.aws.function.v2.HelloFunction;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import io.goda.aws.service.HelloService;
+import io.micronaut.test.annotation.MicronautTest;
+import org.junit.jupiter.api.*;
 
+import javax.inject.Inject;
+
+@MicronautTest
 public class HelloFunctionTest {
 
     private static HelloFunction helloFunction;
 
-    @BeforeAll
-    public static void setupServer() {
+    @Inject
+    HelloService helloService;
+
+    @BeforeEach
+    public void setupServer() {
         helloFunction = new HelloFunction();
     }
 
-    @AfterAll
-    public static void stopServer() {
+    @AfterEach
+    public void stopServer() {
         if (helloFunction != null) {
             helloFunction.getApplicationContext().close();
         }

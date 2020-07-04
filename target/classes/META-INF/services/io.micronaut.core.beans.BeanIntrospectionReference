@@ -1,6 +1,0 @@
-io.goda.aws.function.v2.$HelloFunction$IntrospectionRef
-aws.function.$BookRequestHandler$IntrospectionRef
-io.goda.aws.bean.$HelloBean$IntrospectionRef
-io.goda.aws.function.v1.$HelloFunction$IntrospectionRef
-aws.function.$BookSaved$IntrospectionRef
-aws.function.$Book$IntrospectionRef
